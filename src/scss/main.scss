@@ -1,0 +1,8 @@
+// Ponto de entrada. Compila para assets/css/main.css (npm run build).
+// Ordem: base primeiro, componentes depois.
+@use 'base/base';
+
+@use 'components/header';
+@use 'components/footer';
+@use 'components/button';
+@use 'components/product-card';

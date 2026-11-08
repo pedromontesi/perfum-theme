@@ -1,0 +1,12 @@
+.hero-shelf {
+    grid-template-columns: initial !important;
+    display: flex;
+    max-width: 1920px;
+
+}
+
+.hero-shelf {
+    .wp-block-button {
+        display: none;
+    }
+}
